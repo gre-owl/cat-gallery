@@ -1,0 +1,113 @@
+header{
+    text-align: center;
+    padding:10px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 20px;
+    background: linear-gradient(to right, #f4f8c1 20%, #f4bf07, #9c2b04, #ec662d 100%);
+    box-shadow: 5px 10px;
+}
+
+body{
+    background: linear-gradient(to right, #9c2b04 20%, #f4bf07, #ec662d 100%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    margin-top: 30px;
+    display: flex; 
+    flex-direction: row;
+    justify-content:center;
+    gap: 100px;
+}
+
+article{
+    border-style: solid;
+    border-color:black;
+    border-radius: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #f4f8c1 20%, #f4bf07, #9c2b04, #ec662d 100%);
+    box-shadow: 5px 10px;
+
+}
+
+section{
+    display: grid;
+    grid-template-columns: 2fr 1fr ; /* Size of grid columns to meet the requirement of the sizing*/
+    align-items: center; /* Vertically center the items required to be centered */
+    padding: 20px;
+}
+
+.photo{
+    width:400px;
+}
+
+.phototext{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    background-color:#d4c4af;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 10px;
+}
+
+.arrow{
+    width:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divider{
+
+    border: solid, 2px;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    background-color:#d4c4af;
+    box-shadow: 5px 10px;
+}
+
+.menuHead{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Different menu link states */
+.menuLink:hover{
+    background-color: pink;
+}
+
+.menuLink:visited {
+    color: green;
+}
+
+.menuLink:active {
+    color: purple;
+}
+
+
+footer{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #f4f8c1 20%, #f4bf07, #9c2b04, #ec662d 100%);
+    box-shadow: 5px 10px;
+}
+
+.foot-text{
+    font-size:18px;
+    text-align: center;
+}
+
+
